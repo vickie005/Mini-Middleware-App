@@ -1,17 +1,23 @@
 {
   "name": "middleware-in-express",
   "version": "1.0.0",
+  "description": "An Express.js demo project to understand middleware like logging, auth, validation, and rate limiting.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Victory Mwendwa",
   "license": "ISC",
-  "description": "",
+  "keywords": [
+    "express",
+    "middleware",
+    "nodejs",
+    "backend"
+  ],
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
